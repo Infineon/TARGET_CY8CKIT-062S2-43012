@@ -25,6 +25,8 @@ This version of the CY8CKIT-062S2-43012 BSP was validated for compatibility with
 * [CY8CKIT-062S2-43012 BSP API Reference Manual][api]
 * [CY8CKIT-062S2-43012 Documentation](http://www.cypress.com/CY8CKIT-062S2-43012)
 * [Cypress Semiconductor](http://www.cypress.com)
+* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
+* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: modules.html
 

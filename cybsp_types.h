@@ -248,11 +248,11 @@ extern "C" {
 /** Arduino D6 */
 #define CYBSP_D6                    (P5_6)
 /** Arduino D7 */
-#define CYBSP_D7                    (P0_2)
+#define CYBSP_D7                    (P5_7)
 /** Arduino D8 */
-#define CYBSP_D8                    (P13_0)
+#define CYBSP_D8                    (P7_5)
 /** Arduino D9 */
-#define CYBSP_D9                    (P13_1)
+#define CYBSP_D9                    (P7_6)
 /** Arduino D10 */
 #define CYBSP_D10                   (P12_3)
 /** Arduino D11 */
@@ -267,6 +267,47 @@ extern "C" {
 #define CYBSP_D15                   (P6_0)
 
 /** \} group_bsp_pins_arduino */
+
+
+/**
+* \addtogroup group_bsp_pins_j2 J2 Header Pins
+* \{
+*/
+
+/** Cypress J2 Header pin 1 */
+#define CYBSP_J2_1                  (CYBSP_A0)
+/** Cypress J2 Header pin 2 */
+#define CYBSP_J2_2                  (P9_0)
+/** Cypress J2 Header pin 3 */
+#define CYBSP_J2_3                  (CYBSP_A1)
+/** Cypress J2 Header pin 4 */
+#define CYBSP_J2_4                  (P9_1)
+/** Cypress J2 Header pin 5 */
+#define CYBSP_J2_5                  (CYBSP_A2)
+/** Cypress J2 Header pin 6 */
+#define CYBSP_J2_6                  (P9_2)
+/** Cypress J2 Header pin 7 */
+#define CYBSP_J2_7                  (CYBSP_A3)
+/** Cypress J2 Header pin 8 */
+#define CYBSP_J2_8                  (P9_3)
+/** Cypress J2 Header pin 9 */
+#define CYBSP_J2_9                  (CYBSP_A4)
+/** Cypress J2 Header pin 10 */
+#define CYBSP_J2_10                 (P9_4)
+/** Cypress J2 Header pin 11 */
+#define CYBSP_J2_11                 (CYBSP_A5)
+/** Cypress J2 Header pin 12 */
+#define CYBSP_J2_12                 (P9_5)
+/** Cypress J2 Header pin 13 */
+#define CYBSP_J2_13                 (P10_6)
+/** Cypress J2 Header pin 14 */
+#define CYBSP_J2_14                 (P9_6)
+/** Cypress J2 Header pin 15 */
+#define CYBSP_J2_15                 (P10_7)
+/** Cypress J2 Header pin 16 */
+#define CYBSP_J2_16                 (P9_7)
+
+/** \} group_bsp_pins_j2 */
 
 /** \} group_bsp_pins */
 

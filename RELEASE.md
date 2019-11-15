@@ -1,6 +1,9 @@
 ### CY8CKIT-062S2-43012 BSP
 The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor.
 
+### What's New In This Release?
+* Added pin references for the board's J2 Header
+
 ### What's Included?
 The CY8CKIT-062S2-43012 library includes the following:
 * BSP specific makefile to configure the build process for the board
@@ -25,8 +28,6 @@ This version of the CY8CKIT-062S2-43012 BSP was validated for compatibility with
 * [CY8CKIT-062S2-43012 BSP API Reference Manual][api]
 * [CY8CKIT-062S2-43012 Documentation](http://www.cypress.com/CY8CKIT-062S2-43012)
 * [Cypress Semiconductor](http://www.cypress.com)
-* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
-* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: modules.html
 

@@ -52,6 +52,8 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 * [CY8CKIT-062S2-43012 BSP API Reference Manual][api]
 * [CY8CKIT-062S2-43012 Documentation](http://www.cypress.com/CY8CKIT-062S2-43012)
 * [Cypress Semiconductor](http://www.cypress.com)
+* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
+* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: https://cypresssemiconductorco.github.io/TARGET_CY8CKIT-062S2-43012/html/modules.html
 

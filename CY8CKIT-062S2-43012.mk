@@ -1,6 +1,5 @@
 ################################################################################
 # \file CY8CKIT-062S2-43012.mk
-# \version 1.0
 #
 # \brief
 # Define the CY8CKIT-062S2-43012 target.
@@ -29,12 +28,14 @@ endif
 
 # MCU device selection
 DEVICE:=CY8C624ABZI-D44
-
 # Additional devices on the board
 ADDITIONAL_DEVICES:=CYW43012WKWBG
+# Default target core to CM4 if not already set
+CORE?=CM4
 
+ifeq ($(CORE),CM4)
 # Additional features provided by the target
-COMPONENTS+=CM0P_SLEEP BSP_DESIGN_MODUS
-
+COMPONENTS+=CM0P_SLEEP BSP_DESIGN_MODUS PSOC6HAL
 # Use CyHAL
 DEFINES+=CY_USING_HAL
+endif

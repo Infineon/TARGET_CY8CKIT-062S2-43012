@@ -4,8 +4,8 @@
 * Description:
 * System configuration
 * This file was automatically generated and should not be modified.
-* cfg-backend-cli: 1.2.0.1478
-* Device Support Library (../../../../output/psoc6/psoc6pdl): 1.4.0.1571
+* Device Configurator: 2.0.0.1483
+* Device Support Library (../../../../output/psoc6/psoc6pdl): 1.3.0.1412
 *
 ********************************************************************************
 * Copyright 2017-2019 Cypress Semiconductor Corporation
@@ -183,7 +183,7 @@ __STATIC_INLINE void Cy_SysClk_IloInit()
 __STATIC_INLINE void Cy_SysClk_ClkLfInit()
 {
     /* The WDT is unlocked in the default startup code */
-    Cy_SysClk_ClkLfSetSource(CY_SYSCLK_CLKLF_IN_ILO);
+    Cy_SysClk_ClkLfSetSource(CY_SYSCLK_CLKLF_IN_WCO);
 }
 __STATIC_INLINE void Cy_SysClk_ClkPath0Init()
 {

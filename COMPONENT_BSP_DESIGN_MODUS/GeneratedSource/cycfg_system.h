@@ -4,8 +4,8 @@
 * Description:
 * System configuration
 * This file was automatically generated and should not be modified.
-* cfg-backend-cli: 1.2.0.1478
-* Device Support Library (../../../../output/psoc6/psoc6pdl): 1.4.0.1571
+* Device Configurator: 2.0.0.1483
+* Device Support Library (../../../../output/psoc6/psoc6pdl): 1.3.0.1412
 *
 ********************************************************************************
 * Copyright 2017-2019 Cypress Semiconductor Corporation
@@ -57,7 +57,7 @@ extern "C" {
 #define srss_0_clock_0_ilo_0_ENABLED 1U
 #define srss_0_clock_0_imo_0_ENABLED 1U
 #define srss_0_clock_0_lfclk_0_ENABLED 1U
-#define CY_CFG_SYSCLK_CLKLF_FREQ_HZ 32000
+#define CY_CFG_SYSCLK_CLKLF_FREQ_HZ 32768
 #define srss_0_clock_0_pathmux_0_ENABLED 1U
 #define srss_0_clock_0_pathmux_1_ENABLED 1U
 #define srss_0_clock_0_pathmux_2_ENABLED 1U

@@ -107,7 +107,7 @@ var NAVTREEINDEX0 =
 "group__group__bsp__pins__led.html#gaeee5786a7d2dbb36b7a0c7433a76a038":[1,2,0,4],
 "group__group__bsp__settings.html":[1,0],
 "index.html":[],
-"md_bsp_mt_bsp_user_guide.html":[0],
+"md_bsp_boards_mt_bsp_user_guide.html":[0],
 "modules.html":[1],
 "pages.html":[]
 };

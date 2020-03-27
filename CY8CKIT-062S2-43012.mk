@@ -6,7 +6,7 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2018-2019 Cypress Semiconductor Corporation
+# Copyright 2018-2020 Cypress Semiconductor Corporation
 # SPDX-License-Identifier: Apache-2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +29,7 @@ endif
 # MCU device selection
 DEVICE:=CY8C624ABZI-D44
 # Additional devices on the board
-ADDITIONAL_DEVICES:=CYW43012WKWBG
+ADDITIONAL_DEVICES:=CYW43012C0WKWBG
 # Default target core to CM4 if not already set
 CORE?=CM4
 

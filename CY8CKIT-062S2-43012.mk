@@ -39,3 +39,6 @@ COMPONENTS+=CM0P_SLEEP BSP_DESIGN_MODUS PSOC6HAL 43012
 # Use CyHAL
 DEFINES+=CY_USING_HAL
 endif
+
+# Expose the Power Estimator tool as supported for this board
+CY_SUPPORTED_TOOL_TYPES+=cype-tool

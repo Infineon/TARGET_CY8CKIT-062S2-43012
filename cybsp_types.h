@@ -330,7 +330,7 @@ extern "C" {
 #endif
 /** Pin: SPI CS */
 #ifndef CYBSP_SPI_CS
-#define CYBSP_SPI_CS                (P12_4)
+#define CYBSP_SPI_CS                (P12_3)
 #endif
 
 /** \} group_bsp_pins_comm */

@@ -4,8 +4,8 @@
 * Description:
 * Establishes all necessary connections between hardware elements.
 * This file was automatically generated and should not be modified.
-* Device Configurator: 2.0.0.1483
-* Device Support Library (libs/psoc6pdl): 1.4.1.2240
+* cfg-backend-cli: 1.2.0.1483
+* Device Support Library (libs/psoc6pdl): 1.6.0.4266
 *
 ********************************************************************************
 * Copyright 2017-2019 Cypress Semiconductor Corporation
@@ -43,7 +43,7 @@ void init_cycfg_routing(void);
 #define ioss_0_port_7_pin_1_HSIOM HSIOM_SEL_AMUXB
 #define ioss_0_port_7_pin_2_HSIOM HSIOM_SEL_AMUXB
 #define ioss_0_port_7_pin_7_HSIOM HSIOM_SEL_AMUXB
-#define ioss_0_port_8_pin_1_HSIOM HSIOM_SEL_AMUXA
+#define ioss_0_port_8_pin_1_HSIOM HSIOM_SEL_AMUXB
 #define ioss_0_port_8_pin_2_HSIOM HSIOM_SEL_AMUXB
 #define ioss_0_port_8_pin_3_HSIOM HSIOM_SEL_AMUXB
 #define ioss_0_port_8_pin_4_HSIOM HSIOM_SEL_AMUXB

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.2.0.2801"/>
+    <ToolInfo version="2.2.0.2790"/>
     <Devices>
         <Device mpn="CY8C624ABZI-S2D44">
             <BlockConfig>
@@ -109,10 +109,16 @@
                     <Alias value="CYBSP_J2_11"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[6]">
+                    <Alias value="CYBSP_A6"/>
                     <Alias value="CYBSP_J2_13"/>
+                    <Alias value="CYBSP_POT"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[7]">
+                    <Alias value="CYBSP_A7"/>
                     <Alias value="CYBSP_J2_15"/>
+                </Block>
+                <Block location="ioss[0].port[11].pin[0]">
+                    <Alias value="CYBSP_QSPI_FRAM_SSEL"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[1]">
                     <Alias value="CYBSP_LED9"/>
@@ -120,6 +126,7 @@
                 </Block>
                 <Block location="ioss[0].port[11].pin[2]">
                     <Alias value="CYBSP_QSPI_SS"/>
+                    <Alias value="CYBSP_QSPI_FLASH_SSEL"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[3]">
                     <Alias value="CYBSP_QSPI_D3"/>
@@ -175,6 +182,8 @@
                 </Block>
                 <Block location="ioss[0].port[1].pin[0]">
                     <Alias value="CYBSP_CSD_RX"/>
+                    <Alias value="CYBSP_CS_RX"/>
+                    <Alias value="CYBSP_CS_TX_RX"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -370,6 +379,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[1]">
                     <Alias value="CYBSP_CSD_BTN0"/>
+                    <Alias value="CYBSP_CS_BTN0"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -383,6 +393,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[2]">
                     <Alias value="CYBSP_CSD_BTN1"/>
+                    <Alias value="CYBSP_CS_BTN1"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -396,6 +407,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[3]">
                     <Alias value="CYBSP_CSD_SLD0"/>
+                    <Alias value="CYBSP_CS_SLD0"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -409,6 +421,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[4]">
                     <Alias value="CYBSP_CSD_SLD1"/>
+                    <Alias value="CYBSP_CS_SLD1"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -422,6 +435,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[5]">
                     <Alias value="CYBSP_CSD_SLD2"/>
+                    <Alias value="CYBSP_CS_SLD2"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -435,6 +449,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[6]">
                     <Alias value="CYBSP_CSD_SLD3"/>
+                    <Alias value="CYBSP_CS_SLD3"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -448,6 +463,7 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[7]">
                     <Alias value="CYBSP_CSD_SLD4"/>
+                    <Alias value="CYBSP_CS_SLD4"/>
                     <Personality template="mxs40pin" version="1.1">
                         <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
                         <Param id="initialState" value="1"/>
@@ -460,31 +476,40 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].port[9].pin[0]">
+                    <Alias value="CYBSP_A8"/>
                     <Alias value="CYBSP_J2_2"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[1]">
+                    <Alias value="CYBSP_A9"/>
                     <Alias value="CYBSP_J2_4"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[2]">
+                    <Alias value="CYBSP_A10"/>
                     <Alias value="CYBSP_J2_6"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[3]">
+                    <Alias value="CYBSP_A11"/>
                     <Alias value="CYBSP_J2_8"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[4]">
+                    <Alias value="CYBSP_A12"/>
                     <Alias value="CYBSP_J2_10"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[5]">
+                    <Alias value="CYBSP_A13"/>
                     <Alias value="CYBSP_J2_12"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[6]">
+                    <Alias value="CYBSP_A14"/>
                     <Alias value="CYBSP_J2_14"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[7]">
+                    <Alias value="CYBSP_A15"/>
                     <Alias value="CYBSP_J2_16"/>
                 </Block>
                 <Block location="peri[0].div_8[0]">
                     <Alias value="CYBSP_CSD_CLK_DIV"/>
+                    <Alias value="CYBSP_CS_CLK_DIV"/>
                     <Personality template="mxs40peripheralclock" version="1.0">
                         <Param id="intDivider" value="1"/>
                         <Param id="fracDivider" value="0"/>
@@ -684,7 +709,16 @@
             </Netlist>
         </Device>
         <Device mpn="CYW43012C0WKWBG">
-            <BlockConfig/>
+            <BlockConfig>
+                <Block location="bt[0].power[0]">
+                    <Personality template="connectivity_bt" version="1.0">
+                        <Param id="hostWakePin" value=""/>
+                        <Param id="hostWakeIrqEvent" value="CYCFG_BT_WAKE_EVENT_ACTIVE_LOW"/>
+                        <Param id="devWakePin" value=""/>
+                        <Param id="devWakePolarity" value="CYCFG_BT_WAKE_EVENT_ACTIVE_LOW"/>
+                    </Personality>
+                </Block>
+            </BlockConfig>
             <Netlist/>
         </Device>
     </Devices>
